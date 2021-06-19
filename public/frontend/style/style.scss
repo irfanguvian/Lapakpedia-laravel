@@ -1,0 +1,584 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+     
+  }
+
+.btn-add-cart{
+      width: 160px;
+      margin-right: 0.5rem; 
+      background: #B14141 !important ;
+       border: 1px solid #B14141 !important;
+       &:hover{
+             font-weight: bolder;
+             border: 1px solid #c05b5b !important;
+       }
+}
+
+.navbar-wrapper{
+      width: 1100px;
+      background: #ffff; 
+      nav{
+            .logo{
+                  max-width: 10rem;
+                 
+            }
+            ul{
+                margin-top: 0.5rem; 
+            }
+            .btn-login{
+                  margin-bottom: 0.5rem;
+                  margin-right: 0.5rem;
+                  display: block; 
+                  background: #ffff !important;
+                  border: 1px solid #B14141 !important;
+                  color: #B14141 ;
+
+                  &:hover{
+                        font-weight: bolder;
+                        color: #c05b5b ;
+                        border: 1px solid #c05b5b !important;
+                  }
+                  
+            }
+            .btn-sign-up{
+                  display: block;
+                  margin-right: 0.5rem; 
+                  background: #B14141 !important ;
+                  border: 1px solid #B14141 !important;
+                  &:hover{
+                        font-weight: bolder;
+                        border: 1px solid #c05b5b !important;
+                  }
+            }
+            
+        }
+        .line{
+            height: 0.1px;
+            width: 1099px;
+            border: 1px solid #bbb;
+      }
+}
+
+@import './hero-photos';
+    
+.ic-list{
+      width: 1100px;
+      margin-left: 50px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.banner-mid{
+      margin: auto;
+      width: 1080px;
+}
+
+.box-icon{
+      display: flex;
+      flex-direction: column;
+      text-decoration: none !important;
+      img{
+           width: 50px;
+           margin-left: auto;
+           margin-right: auto;
+      }
+      h4{
+            font-size: 1.4rem;
+            text-align: center;
+            color: black;
+      }
+}
+
+.cart-icon{
+      color:  #B14141;
+      text-decoration: none !important;
+      font-size: 1.5rem;
+      &:hover{
+            color: #c05b5b ; 
+      }
+      .counter-cart{
+            
+            background-color: #b1b1b1;
+            font-weight: bolder;
+            text-align: center;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            padding: 4px;
+            
+      }
+}
+
+.flash-deal{
+      background: #F3F0F5;
+      position:relative;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      .item{
+            margin-right: 4rem;
+      }
+      .barang-barang{
+            margin-bottom: 3rem;
+      }
+      .icon-flash{
+            h1{
+                font-size: 1.5rem;
+            }
+      }
+       
+      .btn-flashdeal{
+            margin-right: 0.5rem; 
+            background: #B14141 !important ;
+            border: 1px solid #B14141 !important;
+            &:hover{
+                  font-weight: bolder;
+                  border: 1px solid #c05b5b !important;
+            }
+      }
+}
+
+.card{
+      height: 100%;
+      position: relative;
+      width: 10.5rem !important ;
+      .card-img-top{
+            width: 100%;
+            height: 47%;
+      }
+      .price-wrap{
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            flex-wrap: wrap;
+      }
+      .card-body{
+            
+            a{
+                  text-decoration: none;
+            }
+            p{
+                  font-size: 1rem;
+                  color: #141414;
+            }
+            
+            .harga-akhir{
+                  font-weight: bolder;
+                  font-size: 1.25rem;
+            }
+            .harga-diskon{
+                  margin-left: .3rem;
+                  font-size: 0.8rem;
+                  color: red;
+            }
+            .harga-akhir-2{
+                  font-weight: bolder;
+                  font-size: 2rem;
+            }
+            .diskon{
+                  margin-top: -1rem;
+                  .harga-awal{
+                        font-weight: lighter;
+                        font-size: 0.85rem;
+                        text-decoration: line-through;
+                        color:#A9A9A9;
+                  }
+            }
+            .diskon-2{
+                  margin-bottom: -1rem;
+                  .harga-awal{
+                        font-weight: lighter;
+                        font-size: 0.85rem;
+                        text-decoration: line-through;
+                        color:#A9A9A9;
+                  }
+            }
+
+      }
+}
+.section-items{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      .card-item{
+            position: relative;
+            height: 100% !important;
+            .item-detail{
+                  position: absolute;
+                  bottom: 0;
+                  display: flex; 
+                  flex-direction: column;
+                  justify-content: end;           
+            }
+      }
+      
+}
+
+.breadcrumb{
+      background: #ffff;
+}
+
+.gallery{
+      .xzoom-container{
+          display: block;
+          .xzoom{
+              width: 100%;
+              box-shadow: none;
+              margin-bottom: 10px;
+          }
+
+          .xactive{
+              border: 4px solid #1a4c9c;
+              box-shadow: none;
+          }
+      }
+  }
+  .price-detail{
+     
+      .harga-akhir{
+            margin-top: -10px;
+            font-weight: bolder;
+            font-size: 2rem;
+      }
+      .QTY{
+            color: red;  
+      }
+      
+      .diskon{
+            margin-top: 10px;
+            .harga-awal{
+                  font-weight: lighter;
+                  font-size: 1.3rem;
+                  text-decoration: line-through;
+                  color:#A9A9A9;
+            }
+            .harga-diskon{
+                  margin-left: .3rem;
+                  font-size: 1.3rem;
+                  color: red;
+            }
+      }
+
+      .btn-add-cart{
+            width: 160px;
+            margin-right: 0.5rem; 
+            background: #B14141 !important ;
+             border: 1px solid #B14141 !important;
+             &:hover{
+                   font-weight: bolder;
+                   border: 1px solid #c05b5b !important;
+             }
+      }
+      .btn-back-items{
+            width: 160px;
+            background: #ffff !important;
+            border: 1px solid #B14141 !important;
+            color: #B14141 ;
+
+            &:hover{
+                  font-weight: bolder;
+                  color: #c05b5b ;
+                  border: 1px solid #c05b5b !important;
+            }
+      }
+    
+}
+  .section-cart{  
+        width: 1100px;    
+      img{
+              width: 12%;
+              height: 12%;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        input{
+              width: 10%;
+              text-align: center;
+        }
+        a{
+              width: 5%;
+              height: auto;
+        }
+        ion-icon{
+              font-size: 24px;
+        }
+        .delete{
+              font-size: 64px;
+        }
+        
+  }
+
+  .btn-cart{
+        width: 1010px;
+      .btn-bayar{
+            width: 150px;
+            margin-right: 0.5rem; 
+            background: #B14141 !important ;
+             border: 1px solid #B14141 !important;
+             &:hover{
+                   font-weight: bold;
+                   border: 1px solid #c05b5b !important;
+             }
+      }
+      .btn-back-items{
+            width: 150px;
+            background: #ffff !important;
+            border: 1px solid #B14141 !important;
+            color: #B14141 ;
+
+            &:hover{
+                  font-weight: bold;
+                  color: #c05b5b ;
+                  border: 1px solid #c05b5b !important;
+            }
+      }
+  }
+
+form{
+ .form-group{
+       .alamat{
+            float: left;
+            width: 100%;
+            padding-left: 10px ;
+            outline:none;
+           border-radius: 5px;
+            min-height: 75px;
+            resize: none;
+            border: 1px solid grey;
+       }
+       .custom-select{
+             width: 20%;
+       }
+ }
+ .btn-kirim{
+      width: 100px;
+      margin-right: 0.5rem; 
+      background: #B14141 !important ;
+      border: 1px solid #B14141 !important;
+      &:hover{
+            font-weight: bolder;
+            border: 1px solid #c05b5b !important;
+      }
+
+ }
+}
+footer{
+      a{
+            color: #141414;
+            text-decoration: none;
+      }
+      a:hover{
+            color: black;
+            text-decoration: none;
+      }
+}
+
+@media (max-width :1010px){
+      .navbar-wrapper{
+            width: 1000px;
+            .line{
+                  height: 0.1px;
+                  width: 1010px;
+                  border: 1px solid #bbb;
+            }
+      }
+      
+      .banner-mid{
+            width: 920px;
+            margin-left: 15px;
+      }
+      .ic-list{
+            margin: auto;
+            display: grid;
+            grid-template-rows: 100px;
+            grid-template-columns: repeat(5,calc(1000px/5));
+      }
+      .flash-deal{
+            width: 1000px;
+            .item{
+                  margin-right: 80px !important;
+            }
+            .barang-barang{
+                  margin-left: -75px;
+            }
+      }
+      .section-items{
+            width: 1000px;
+            display: flex;
+            justify-content: space-around;
+      }
+      .detail-page{
+            width: 1000px;
+      }
+      .section-cart{
+            width: 1000px;
+      }
+      .btn-cart{
+            width: 940px;
+      }
+      
+     
+      
+}
+  
+@media (max-width :768px){
+      
+      .navbar-wrapper{
+            width: 768px;
+            .line{
+                  height: 0.1px;
+                  width: 768px;
+                  border: 1px solid #bbb;
+            }
+      }
+      nav{
+            .logo{
+                  width: 10rem ;
+                  max-width: 35%;
+                  margin-top: 0;
+                  position: absolute;
+                  top :0;
+            }
+                 
+      }  
+      
+      .photos-wrapper{
+            margin-top: 10px;
+            margin-left: 110px;
+      }      
+      .ic-list{
+            display: grid;
+            grid-template-rows: 100px;
+            grid-template-columns: repeat(5,calc(760px/5));
+      }
+
+      .banner-mid{
+            width: 500px;
+            margin-left: 120px;
+      }
+      .flash-deal{
+            width: 760px;
+            .item{
+                  margin-right: 65px !important
+            }
+            .item-4{
+                  display: none;
+            }
+            .barang-barang{
+                  margin-left: 10px;
+            }
+      }
+ 
+      .detail-page{
+            width: 768px;
+            .price-detail{
+                  .btn-add-cart{
+                        font-size: .8rem;
+                        width: 135px;
+                  }
+                  .btn-back-items{
+                        font-size: .8rem;
+                        width: 135px;
+                  }
+            }
+      }
+      .section-items{
+            width: 768px;
+            display: grid;
+            grid-template-columns: repeat(4,calc(768px/4));
+            grid-template-rows: 360px;
+            column-gap: -10px !important;
+            .card-item{
+                  height: 350px !important;
+            }
+      }
+      .section-cart{
+            width: 760px;
+      }
+      .btn-cart{
+            width: 740px;
+      }
+      
+}
+
+@media (max-width :576px){
+      .section-items{
+            width: 550px;
+            display: grid;
+            grid-template-columns: repeat(3,calc(550px/3));
+            grid-template-rows: 360px;
+            .card-item{
+                  height: 350px !important;
+            }
+      }
+      .navbar-wrapper{
+            width: 550px;
+            .line{
+                  width: 100%;
+                  border: 1px solid #bbb !important;
+            }
+      }
+     
+      .photos-wrapper{
+            margin-top: 10px;
+            margin-left: 0;
+            grid-template-columns: 550px;
+      } 
+      .ic-list{
+            display: grid;
+            grid-template-rows: 100px;
+            grid-template-columns: repeat(5,calc(570px/5));
+      }
+      .banner-mid{
+            width: 550px;
+            margin-left: 15px;
+      }
+      .flash-deal{
+            width: 550px;
+            .item-3{
+                  display: none;
+            }
+            .item-4{
+                  display: none;
+            }
+            .barang-barang{
+                  margin-left: 10px;
+            }
+      }
+      .detail-page{
+            width: 550px;
+      }
+      
+      .section-cart{
+            margin-top: 10px;
+            width: 500px;
+      }
+      .text-cart{
+            h1 , h3{
+                  font-size: 1.2rem;
+            }
+      }
+      
+      .btn-cart{
+            h2{
+                  font-size: 1.2rem;;
+            }
+            width: 500px;
+           .btn-bayar{
+                 font-size: 0.5rem;
+                 text-align: center;
+                 width: 150px;
+                 height: 30px;
+           }
+           .btn-back-items{
+            font-size: 0.5rem;
+            text-align: center;
+            width: 150px;
+            height: 30px;
+           }
+      }
+}

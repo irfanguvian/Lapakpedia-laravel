@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html">
+                    <img src="img/bukalapak-logo-primary.svg" style="width: 50%;" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-2">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kategori Barang
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <hr class="solid mt-2">
+          <main>
+            <div class="container">
+              <h1>Transaksi</h1>
+              <form action="" id="form-transaksi">
+                <div class="form-group row">
+                  <label for="nama" class="col-sm-2 col-form-label">Nama Penerima</label>
+                  <div class="col-sm-10">
+                    <input type="nama" class="form-control" id="nama" placeholder="Nama">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
+                  <div class="col-sm-10 alamat">
+                    <textarea name="alamat" id="alamat" cols="104" rows="3" form="form-transaksi" placeholder="  Alamat"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="provinsi" class="col-sm-2 col-form-label">Provinsi</label>
+                  <div class="col-sm-10">
+                    <input type="provinsi" class="form-control" id="provinsi" placeholder="Provinsi">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="kota" class="col-sm-2 col-form-label">Kota</label>
+                  <div class="col-sm-10">
+                    <input type="kota" class="form-control" id="kota" placeholder="Kota">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="jasa-pengiriman" class="col-sm-2 col-form-label">Jasa Pengiriman</label>
+                  <div class="col-sm-10">
+                    <select class="custom-select mr-sm-2">
+                      <option selected value="JNE">JNE EXPRESS</option>
+                      <option value="TIKI">TIKI</option>
+                      <option value="J&T">J&T</option>
+                      <option value="PI">Pos Indonesia</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="pembayaran" class="col-sm-2 col-form-label">Pembayaran</label>
+                  <div class="col-sm-10">
+                    <select class="custom-select mr-sm-2">
+                      <option selected value="Kartu">Kartu Kredit</option>
+                      <option value="Transfer">Transfer</option>
+                      <option value="COD">Cash On delivery</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-end mt-5 mr-4">
+                <a href="success.html" class="btn btn-primary px-2 btn-kirim">Kirim</a>
+                </div>
+              </form>
+            </div>
+          </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    </body>
+    </html>
